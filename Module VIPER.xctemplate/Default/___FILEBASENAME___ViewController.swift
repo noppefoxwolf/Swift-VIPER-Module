@@ -12,7 +12,19 @@ import UIKit
 
 class ___VARIABLE_productName:identifier___ViewController: UIViewController, ___VARIABLE_productName:identifier___ViewProtocol {
 
-	var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?
+	var output: ___VARIABLE_productName:identifier___PresenterProtocol!
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        let presenter = ___VARIABLE_productName:identifier___Presenter()
+        let interactor = ___VARIABLE_productName:identifier___Interactor()
+        presenter.view = self
+        presenter.interactor = interactor
+        self.output = presenter
+        interactor.output = presenter
+    }
+    
+    required init?(coder: NSCoder) { fatalError() }
 
 	override func viewDidLoad() {
         super.viewDidLoad()
