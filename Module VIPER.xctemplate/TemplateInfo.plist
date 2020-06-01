@@ -20,6 +20,52 @@
 	<string>___FILEBASENAME___</string>
 	<key>SortOrder</key>
 	<integer>1</integer>
+	<key>Nodes</key>
+    <array>
+        <string>___FILEBASENAME___Interactor.swift</string>
+		<string>___FILEBASENAME___Presenter.swift</string>
+		<string>___FILEBASENAME___Protocols.swift</string>
+		<string>___FILEBASENAME___ViewController.swift</string>
+    </array>
+    <key>Definitions</key>
+    <dict>
+        <key>___FILEBASENAME___Interactor.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>___FILEBASENAME___</string>
+            </array>
+            <key>Path</key>
+            <key>___FILEBASENAME___Interactor.swift</key>
+        </dict>
+		<key>___FILEBASENAME___Presenter.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>___FILEBASENAME___</string>
+            </array>
+            <key>Path</key>
+            <key>___FILEBASENAME___Presenter.swift</key>
+        </dict>
+		<key>___FILEBASENAME___Protocols.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>___FILEBASENAME___</string>
+            </array>
+            <key>Path</key>
+            <key>___FILEBASENAME___Protocols.swift</key>
+        </dict>
+		<key>___FILEBASENAME___ViewController.swift</key>
+        <dict>
+            <key>Group</key>
+            <array>
+                <string>___FILEBASENAME___</string>
+            </array>
+            <key>Path</key>
+            <key>___FILEBASENAME___ViewController.swift</key>
+        </dict>
+    </dict>
 	<key>Options</key>
 	<array>
 		<dict>
