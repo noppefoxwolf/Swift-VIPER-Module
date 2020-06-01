@@ -9,7 +9,18 @@
 
 import UIKit
 
-class ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInput {
+protocol ___VARIABLE_productName:identifier___InteractorInput: class {
+}
+
+//MARK: Interactor -
+protocol ___VARIABLE_productName:identifier___InteractorOutput: class {
+}
+
+class ___VARIABLE_productName:identifier___Interactor {
 
     weak var output: ___VARIABLE_productName:identifier___InteractorOutput!
+}
+
+extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInput {
+    
 }

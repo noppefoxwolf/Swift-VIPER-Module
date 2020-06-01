@@ -9,7 +9,7 @@
 
 import UIKit
 
-class ___VARIABLE_productName:identifier___ViewController: UIViewController, ___VARIABLE_productName:identifier___ViewInput {
+class ___VARIABLE_productName:identifier___ViewController: UIViewController {
 
 	var output: ___VARIABLE_productName:identifier___ViewOutput!
 
@@ -29,4 +29,8 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController, ___
         super.viewDidLoad()
     }
 
+}
+
+extension ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_productName:identifier___ViewInput {
+    
 }

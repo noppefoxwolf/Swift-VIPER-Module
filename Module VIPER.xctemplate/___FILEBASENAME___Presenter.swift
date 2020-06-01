@@ -9,9 +9,21 @@
 
 import UIKit
 
-class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___ViewOutput, ___VARIABLE_productName:identifier___InteractorOutput {
+protocol ___VARIABLE_productName:identifier___ViewOutput: class {
+}
 
+protocol ___VARIABLE_productName:identifier___ViewInput: class {
+}
+
+class ___VARIABLE_productName:identifier___Presenter {
     weak var view: ___VARIABLE_productName:identifier___ViewInput!
     var interactor: ___VARIABLE_productName:identifier___InteractorInput!
+}
 
+extension ___VARIABLE_productName:identifier___Presenter:  ___VARIABLE_productName:identifier___ViewOutput {
+    
+}
+
+extension ___VARIABLE_productName:identifier___Presenter:  ___VARIABLE_productName:identifier___InteractorOutput {
+    
 }
