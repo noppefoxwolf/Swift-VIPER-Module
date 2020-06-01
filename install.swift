@@ -34,9 +34,8 @@ func moveTemplate(){
             
             printInConsole("✅  Template already exists. So has been replaced succesfully 🎉. Enjoy it 🙂")
         }
-    }
-    catch let error as NSError {
-        printInConsole("❌  Ooops! Something went wrong 😡 : \(error.localizedFailureReason!)")
+    } catch let error {
+        printInConsole("❌  Ooops! Something went wrong 😡 : \(error)")
     }
 }
 
@@ -52,7 +51,7 @@ func shell(launchPath: String, arguments: [String]) -> String
     
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
     let output = String(data: data, encoding: String.Encoding.utf8)!
-    if output.characters.count > 0 {
+    if output.count > 0 {
         //remove newline character.
         let lastIndex = output.index(before: output.endIndex)
         return String(output[output.startIndex ..< lastIndex])
