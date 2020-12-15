@@ -17,7 +17,6 @@ protocol ___VARIABLE_productName:identifier___InteractorOutput: class {
 }
 
 class ___VARIABLE_productName:identifier___Interactor {
-
     weak var output: ___VARIABLE_productName:identifier___InteractorOutput!
 }
 
